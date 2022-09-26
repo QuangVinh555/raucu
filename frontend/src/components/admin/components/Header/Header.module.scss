@@ -1,0 +1,36 @@
+.header{
+    height:100px;
+    background-color: rgb(83, 83, 220);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.header-logo{
+    font-size: 1.6rem;
+    margin-left: 20px;
+}
+
+.header-info{
+    margin-right: 20px;
+}
+
+.header-info ul{
+    display: flex;
+}
+
+.header-info ul li{
+    list-style: none;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+.header-info ul li:nth-child(5):hover{
+    opacity: 0.8;
+}
+
+.header-info ul li span{
+    margin-left: 4px;
+}

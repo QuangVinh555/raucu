@@ -1,0 +1,36 @@
+.modal{
+    position: absolute;
+    left: -78px;
+    right: 0px;
+    top: 40px;
+    color: #333;
+    width: 180px;
+    background-color: #ccc;
+    z-index: 100;
+    border-radius: 5px;
+    display: none;
+}
+
+.user-modal{
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin: 0 20px;
+    font-size: 1.2rem;
+}
+// 
+.user-modal::before{
+    content: "";
+    display: block;
+    border-width: 20px 27px;
+    border-style: solid;
+    border-color: transparent transparent #ccc transparent;
+    position: absolute;
+    top: -30px;
+    right: 64px;
+}
+
+.user-modal li{
+    padding: 8px 0;
+    border-bottom: 1px solid #bdb7b7;
+}

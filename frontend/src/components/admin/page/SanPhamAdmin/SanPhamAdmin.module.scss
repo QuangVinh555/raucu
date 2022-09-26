@@ -1,0 +1,61 @@
+.wrapper{
+    margin-top: 16px;
+}
+
+.container-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.container-header-link svg{
+    margin: 0 4px;
+}
+
+.container{
+    border: 1px solid #ccc;
+    margin: 0 20px;
+    padding-top: 12px;
+    padding-bottom: 40px;
+}
+
+.container-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8px 20px;
+}
+
+.container-title-create{
+    font-size: 1.2rem;
+}
+
+.container-title-btn button{
+    padding: 6px 8px;
+    margin: 0 4px;
+    cursor: pointer;
+}
+
+.container-content{
+    margin: 0 20px;
+}
+
+.container-form{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.container-form label{
+    width: 150px;
+}
+
+.container-form input{
+   flex: 1;
+   padding: 8px 0;
+}
+
+.container-form textarea{
+    flex: 1;
+ }

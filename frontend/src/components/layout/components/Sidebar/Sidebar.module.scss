@@ -1,0 +1,134 @@
+.sidebar{
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.sidebar-title{
+    display: flex;
+}
+
+.sidebar-title span:nth-child(1){
+    color: rgb(148, 148, 148);
+}
+
+.sidebar-title span:nth-child(2){
+    font-weight: bold;
+    margin-left: 8px;
+    color: rgb(34,34,34);
+}
+
+.sidebar-title span{
+    font-size: 1.4rem;
+}
+
+.sidebar-category{
+    border-left: 1px solid rgb(140,198,63);
+    border-right: 2px solid rgb(240,240,240);
+    margin-top: 46px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+.sidebar-category h3{
+   background-color: rgb(140,198,63);
+   margin: 0;
+   color: #fff;
+   padding: 18px;
+   border-top-right-radius: 10px;
+   border-top-left-radius: 10px;
+   font-size: 1.4rem;
+
+}
+
+.sidebar-category-list{
+    flex-direction: column;
+    display: flex;
+}
+
+.sidebar-category-list a{
+    text-decoration: none;
+    color: #333;
+    font-size: 1.4rem;
+    border-bottom: 2px solid rgb(240,240,240);
+    padding: 10px 0;
+}
+
+.sidebar-category-list a:hover{
+   background-color: rgb(140,198,63);
+   cursor: pointer;
+   color: #fff;
+}
+
+.sidebar-category-list span{
+    margin-left: 18px;
+}
+
+// =====================
+// LỌC
+
+.sidebar-category-price{
+    
+}
+
+.sidebar-category-price{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 16px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebar-category_around-left{
+    width: 15px;
+    height: 15px;
+    background-color: #333;
+    border-radius: 50px;
+}
+
+.sidebar-category_line{
+    width: 240px;
+    height: 5px;
+    background-color: #666;
+}
+
+.sidebar-category_around-right{
+    width: 15px;
+    height: 15px;
+    background-color: #333;
+    border-radius: 50px;
+}
+
+.sidebar-category-filter{
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.sidebar-category_btn-filter{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 6px 14px;
+}
+
+.sidebar-category_btn-filter:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.sidebar-category-filter span{
+    text-align: right;
+    margin-left: 60px;
+}
+
+.sidebar-category-list-item{
+    display: flex;
+    align-items: center;
+}
+
+
+.sidebar-category-list-item-info{
+    margin-left: 8px;
+}

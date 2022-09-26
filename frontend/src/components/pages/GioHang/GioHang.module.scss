@@ -1,0 +1,221 @@
+.cart{
+    display: flex;
+}
+
+.container-left{
+    font-size: 1.4rem;
+    width: 60%;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.container-left table, tr{
+    border-bottom: 1px solid #ccc;
+}
+
+table{
+    width: 100%;
+}
+
+.container-left thead{
+    text-transform: uppercase;
+
+}
+
+.container-left thead tr{
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+.container-left thead tr th:nth-child(1){
+    text-align: left;
+
+}
+
+// =====================
+// tbody
+
+
+.container-left tbody tr{
+    font-size: 1.2rem;
+}
+
+.container-left tbody tr td:nth-child(1){
+    display: flex;
+    align-items: center;
+}
+
+.container-left tbody tr td a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 16px;
+    color: black;
+}
+
+.container-left tbody tr td a img{
+    margin-right: 16px;
+}
+
+.container-left tbody tr td{
+    text-align: center;
+}
+
+.container-left-delete:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.container-left tbody tr td span{
+    margin: 0 8px;
+}
+
+.container-left-price{
+    font-size: 1.6rem;
+
+}
+
+.container-left-up_down{
+    font-size: 1.6rem;
+}
+
+.container-left-up_down:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.container-left-total{
+    color: red;
+}
+
+// ==========================================================
+// btn
+.container-left-btn{
+    margin-top: 20px;
+}
+
+.container-left-btn button{
+    padding: 8px 46px;
+    margin-right: 16px;
+    cursor: pointer;
+    border: 1px solid green;
+}
+
+.container-left-btn button:nth-child(1):hover{
+    opacity: 0.8;
+}
+
+.container-left-btn button:nth-child(2){
+    background-color: green;
+    color: #fff;
+}
+
+.container-left-btn button:nth-child(2):hover{
+    opacity: 0.8;
+}
+
+.container-right{
+    width: 40%;
+    margin: 45px 80px;
+}
+
+.container-right-title{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ccc;
+    padding: 8px 0;
+}
+
+.container-right-title h4{
+    margin: 0;
+
+}
+
+.container-right-price-temp{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    border-bottom: 1px solid #ccc;
+    padding: 12px 0;
+}
+
+.container-right-price-temp span:nth-child(2){
+    color: red;
+}
+
+.container-right-delivery{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.container-right-delivery span{
+    font-size: 1.2rem;
+    
+}
+
+.container-right-delivery-info{
+    margin-left: 16px;
+}
+
+.container-right-delivery-info p:nth-child(1){
+    text-align: right;
+}
+
+.container-right-delivery-info p:nth-child(3){
+    text-align: right;
+
+}
+
+.container-right-price{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    border-bottom: 1px solid #ccc;
+    padding: 8px 0;
+}
+
+.container-right-price span{
+    font-size: 1.2rem;
+}
+
+.container-right-price span:nth-child(2){
+    color: red;
+}
+
+.container-right-pay{
+    margin-top: 16px;
+    padding: 6px 40%;
+    text-transform: uppercase;
+    background-color: #111111;
+    color: #fff;
+}
+
+.container-right-pay:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.container-right-discount{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-right-discount span{
+    font-size: 1.2rem;
+    border-bottom: 1px solid #ccc;
+    padding: 8px 0;
+}
+
+.container-right-discount input{
+    margin-top: 16px;
+    padding: 8px 40%;
+    outline: none;
+}
+
+.container-right-discount button{
+    margin-top: 16px;
+    padding: 8px 40%;
+    cursor: pointer;
+}
