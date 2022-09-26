@@ -1,0 +1,38 @@
+#Register
+POST http://localhost:8000/user/register
+Content-Type: application/json
+
+{
+    "username": "nhanvien8",
+    "password": "123"
+}
+
+###
+#Login
+
+POST http://localhost:8000/user/login
+Content-Type: application/json
+
+{
+    "username": "abc",
+    "password": "123"
+}
+
+###
+#GET USERNAME
+GET http://localhost:8000/user/
+
+###
+#ADD PRODUCT
+POST http://localhost:8000/product/create
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmZhNjE5ZThiYTM0ZmQxMjgwMTNhMTkiLCJpYXQiOjE2NjEzNDkyOTJ9.Dht_X7dW7orAf9PIvCvMAcUXul6fLrG-UNxv4qV6CL0
+
+{
+    "name": "Nho my",
+    "description": "Nho tai vuon",
+    "price": 149000,
+    "type": "raucu",
+    "slug": "nho-my"
+}       
+
